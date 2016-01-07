@@ -552,6 +552,9 @@ p {
       font-size: 28px;
       margin: 30px 0 -10px 0;
     }
+    ul li {
+      font-size: 26px;
+    }
 }
 
 /* ---- iPad 3 and 4 ---- */
