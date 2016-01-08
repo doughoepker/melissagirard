@@ -60,7 +60,7 @@ body {
   background-position: center;
   background-size: contain;
   height: 280px;
-  margin: 20% 0 0 0;
+
 }
 
 .frontpage {
@@ -76,23 +76,13 @@ body {
   text-decoration: none;
 }
 
-.vertical-contain {
-  display: table;
-  height: 12%;
-  width: 100%;
-}
-
-.vertical-center {
-  display: table-cell;
-  vertical-align: middle;
-}
 
 /* -------------- SVGs -------------- */
 
 .footerlogos {
   display: table;
   margin: 0 auto;
-  padding-bottom: 20%;
+
 }
 
 .footerlogos svg {
@@ -233,12 +223,12 @@ p {
     .catlogo {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
-      margin: 10% 0 0 0;
+
     }
     .footerlogos {
       display: table;
       margin: 0 auto;
-      padding-bottom: 8%;
+
     }
 }
 
