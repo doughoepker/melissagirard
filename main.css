@@ -30,11 +30,28 @@ a#image-link {
 
 /* ----------- Index ----------- */
 
+html {
+  height: 100%;
+}
+
 body {
   background-image: url(Wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .catlogo {
