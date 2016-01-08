@@ -82,7 +82,11 @@ body {
 .footerlogos {
   display: table;
   margin: 0 auto;
+}
 
+.footerlogos2 {
+  display: table;
+  margin: 0 auto 20px;
 }
 
 .footerlogos svg {
