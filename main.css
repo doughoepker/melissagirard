@@ -396,6 +396,7 @@ p {
     }
     ul li {
       font-size: 20px;
+    }
 }
 
 /* Landscape */
@@ -451,7 +452,7 @@ p {
   and (-webkit-min-device-pixel-ratio: 1) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 400px;
+      height: 360px;
     }
     .frontpage h2 {
       font-size: 2.0em;
@@ -562,7 +563,8 @@ p {
 
 /* ---- Laptops & Desktops ---- */
 @media screen
-  and (min-device-width: 1200px) {
+  and (min-device-width: 1200px)
+  and (max-device-width: 2){
     .catlogo {
       background-image: url(MG-Logo.png);
       height: 400px;
@@ -586,7 +588,7 @@ p {
       width: 60%;
     }
     .teaching {
-      width: 60%;
+      width: 50%;
     }
     p {
       font-size: 28px;
