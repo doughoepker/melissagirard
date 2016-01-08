@@ -378,6 +378,9 @@ p {
       height: 280px;
       margin: 38% 0 0 0;
     }
+    .footerlogos {
+      padding-bottom: 15%;
+    }
     .frontpage h2 {
       font-size: 1.5em;
       margin: 20px auto 15px auto;
