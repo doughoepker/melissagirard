@@ -719,6 +719,9 @@ p {
     .research h3 {
       font-size: 36px;
     }
+    .teaching h1 {
+      padding-top: 50px;
+    }
     h4 {
       font-size: 28px;
     }
