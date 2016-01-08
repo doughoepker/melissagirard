@@ -32,7 +32,7 @@ a#image-link {
 
 body {
   background-image: url(Wallpaper.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
 }
