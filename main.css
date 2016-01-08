@@ -452,7 +452,7 @@ p {
   and (-webkit-min-device-pixel-ratio: 1) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 360px;
+      height: 340px;
     }
     .frontpage h2 {
       font-size: 2.0em;
@@ -480,11 +480,17 @@ p {
       margin: 20px 0 10px 0;
       line-height: 1.3em;
     }
+    .about {
+      width: 70%;
+    }
     .research {
       width: 70%;
     }
     .research h3 {
       font-size: 36px;
+    }
+    .teaching {
+      width: 40%;
     }
     ul li {
       font-size: 22px;
@@ -511,7 +517,7 @@ p {
   and (-webkit-min-device-pixel-ratio: 2) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 400px;
+      height: 340px;
     }
     .frontpage h2 {
       font-size: 2.0em;
@@ -539,11 +545,17 @@ p {
       margin: 20px 0 10px 0;
       line-height: 1.3em;
     }
+    .about {
+      width: 70%;
+    }
     .research {
       width: 70%;
     }
     .research h3 {
       font-size: 36px;
+    }
+    .teaching {
+      width: 40%;
     }
     ul li {
       font-size: 22px;
