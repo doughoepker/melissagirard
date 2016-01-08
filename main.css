@@ -442,13 +442,13 @@ p {
     }
 }
 
-/* ---- iPad ---- */
+/* ---- iPad 1, 2, mini ---- */
 
-/* Portrait */
+/* Portrait & Landscape */
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (orientation: portrait) {
+  and (-webkit-min-device-pixel-ratio: 1) {
     .catlogo {
       background-image: url(MG-Logo.png);
       height: 400px;
@@ -501,22 +501,20 @@ p {
     }
 }
 
-/* Landscape */
+/* ---- iPad 3, 4, 5 ---- */
+
+/* Portrait & Landscape */
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (orientation: landscape) {
+  and (-webkit-min-device-pixel-ratio: 2) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 450px;
+      height: 400px;
     }
     .frontpage h2 {
       font-size: 2.0em;
       margin: 20px auto 15px auto;
-    }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
     }
     .footerlogos svg {
       width: 60px;
@@ -540,73 +538,21 @@ p {
       margin: 20px 0 10px 0;
       line-height: 1.3em;
     }
-    .about {
-      width: 70%;
-    }
     .research {
-      width: 70%;
-    }
-    .teaching h3 {
-      font-size: 30px
-      margin: 30px 0 -12px 0;
-    }
-    .teaching h4 {
-      font-size: 28px;
-      margin: 30px 0 -10px 0;
-    }
-    ul li {
-      font-size: 26px;
-    }
-}
-
-/* ---- iPad 3 and 4 ---- */
-
-/* Portrait
-@media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (orientation: portrait)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .catlogo {
-      background-image: url(MG-Logo.png);
-      height: 400px;
-    }
-    .frontpage h2 {
-      font-size: 2.0em;
-      margin: 20px auto 15px auto;
-    }
-    .footerlogos svg {
-      width: 60px;
-      height: 60px;
-    }
-    p {
-      font-size: 30px;
-    }
-    h1 {
-      font-size: 50px;
-    }
-    h2 {
-      font-size: 36px;
-    }
-    h3 {
-      font-size: 30px;
-      margin: 30px 0 -30px 0;
-    }
-    h4 {
-      font-size: 30px;
-    }
-    .about {
       width: 70%;
     }
     .research h3 {
       font-size: 36px;
     }
     ul li {
-      font-size: 26px;
+      font-size: 22px;
+      text-align: left;
+      margin-bottom: 10px;
+      line-height: 1.2em;
     }
     .teaching h3 {
       font-size: 30px
-      margin: 30px 0 0px 0;
+      margin: 30px 0 -12px 0;
     }
     .teaching h4 {
       font-size: 28px;
@@ -644,6 +590,9 @@ Landscape
     h3 {
       font-size: 30px;
       margin: 30px 0 -30px 0;
+    }
+    .about {
+      width: 70%;
     }
     .research h3 {
       font-size: 36px;
