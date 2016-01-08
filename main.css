@@ -479,6 +479,9 @@ p {
       margin: 20px 0 10px 0;
       line-height: 1.3em;
     }
+    .research {
+      width: 70%;
+    }
     .research h3 {
       font-size: 36px;
     }
@@ -538,6 +541,9 @@ p {
       line-height: 1.3em;
     }
     .about {
+      width: 70%;
+    }
+    .research {
       width: 70%;
     }
     .teaching h3 {
