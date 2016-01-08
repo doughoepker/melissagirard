@@ -451,18 +451,12 @@ p {
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
     .catlogo {
-      background-image: url(MG-Mobile-Logo.png);
+      background-image: url(MG-Logo.png);
       height: 400px;
-      margin: 28% 0 0 0;
     }
     .frontpage h2 {
       font-size: 2.0em;
       margin: 20px auto 15px auto;
-    }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
-      padding-bottom: 8%;
     }
     .footerlogos svg {
       width: 60px;
@@ -513,8 +507,7 @@ p {
   and (-webkit-min-device-pixel-ratio: 1) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 300px;
-      margin: 14% 0 0 0;
+      height: 450px;
     }
     .frontpage h2 {
       font-size: 2.0em;
@@ -523,7 +516,6 @@ p {
     .footerlogos {
       display: table;
       margin: 0 auto;
-      padding-bottom: 8%;
     }
     .footerlogos svg {
       width: 60px;
