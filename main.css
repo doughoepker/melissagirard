@@ -705,8 +705,7 @@ p {
 
 /* ---- Laptops & Desktops ---- */
 @media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 2){
+  and (min-device-width: 1200px) {
     .catlogo {
       background-image: url(MG-Logo.png);
       height: 400px;
