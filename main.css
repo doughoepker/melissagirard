@@ -453,7 +453,7 @@ p {
   and (orientation: portrait) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 340px;
+      height: 300px;
     }
     .frontpage h2 {
       font-size: 2.0em;
@@ -583,7 +583,7 @@ p {
   and (orientation: portrait) {
     .catlogo {
       background-image: url(MG-Logo.png);
-      height: 340px;
+      height: 300px;
     }
     .frontpage h2 {
       font-size: 2.0em;
