@@ -445,11 +445,76 @@ p {
 
 /* ---- iPad 1, 2, mini ---- */
 
-/* Portrait & Landscape */
+/* Portrait */
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: portait) {
+    .catlogo {
+      background-image: url(MG-Logo.png);
+      height: 340px;
+    }
+    .frontpage h2 {
+      font-size: 2.0em;
+      margin: 20px auto 15px auto;
+    }
+    .footerlogos svg {
+      width: 60px;
+      height: 60px;
+    }
+    p {
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 30px;
+      margin: 30px 0 -30px 0;
+    }
+    h4 {
+      font-size: 26px;
+      margin: 20px 0 10px 0;
+      line-height: 1.3em;
+    }
+    .about {
+      width: 70%;
+    }
+    .research {
+      width: 70%;
+    }
+    .research h3 {
+      font-size: 36px;
+    }
+    .teaching {
+      width: 60%;
+    }
+    ul li {
+      font-size: 22px;
+      text-align: left;
+      margin-bottom: 10px;
+      line-height: 1.2em;
+    }
+    .teaching h3 {
+      font-size: 30px
+      margin: 30px 0 -12px 0;
+    }
+    .teaching h4 {
+      font-size: 28px;
+      margin: 30px 0 -10px 0;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
     .catlogo {
       background-image: url(MG-Logo.png);
       height: 340px;
@@ -510,11 +575,76 @@ p {
 
 /* ---- iPad 3, 4, 5 ---- */
 
-/* Portrait & Landscape */
+/* Portrait */
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portait) {
+    .catlogo {
+      background-image: url(MG-Logo.png);
+      height: 340px;
+    }
+    .frontpage h2 {
+      font-size: 2.0em;
+      margin: 20px auto 15px auto;
+    }
+    .footerlogos svg {
+      width: 60px;
+      height: 60px;
+    }
+    p {
+      font-size: 30px;
+    }
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 36px;
+    }
+    h3 {
+      font-size: 30px;
+      margin: 30px 0 -30px 0;
+    }
+    h4 {
+      font-size: 26px;
+      margin: 20px 0 10px 0;
+      line-height: 1.3em;
+    }
+    .about {
+      width: 70%;
+    }
+    .research {
+      width: 70%;
+    }
+    .research h3 {
+      font-size: 36px;
+    }
+    .teaching {
+      width: 60%;
+    }
+    ul li {
+      font-size: 22px;
+      text-align: left;
+      margin-bottom: 10px;
+      line-height: 1.2em;
+    }
+    .teaching h3 {
+      font-size: 30px
+      margin: 30px 0 -12px 0;
+    }
+    .teaching h4 {
+      font-size: 28px;
+      margin: 30px 0 -10px 0;
+    }
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
     .catlogo {
       background-image: url(MG-Logo.png);
       height: 340px;
