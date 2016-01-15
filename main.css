@@ -78,7 +78,7 @@ body {
 
 .nav {
   display: table;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 .nav ul {
   list-style-type: none;
@@ -98,9 +98,16 @@ body {
 }
 
 .nav li a:hover {
+  text-decoration: none;
+  color: #01ab92;
+}
+
+/*
+.nav li a:hover {
   border: 3px solid #ffcc33;
   color: #006b5b;
 }
+*/
 
 /* -------------- SVGs -------------- */
 
@@ -119,11 +126,11 @@ body {
 }
 
 .footersvg {
-  fill: #000000;
+  fill: #006b5b;
 }
 
 .footersvg:hover {
-  fill: #006b5b;
+  fill: #01ab92;
 }
 
 /* -------------- Headings & Lists -------------- */
@@ -837,13 +844,9 @@ p {
       font-size: 2.2em;
       margin: 20px auto 15px auto;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
-    }
     .footerlogos svg {
-      width: 60px;
-      height: 60px;
+      width: 30px;
+      height: 30px;
     }
     .about {
       width: 60%;
