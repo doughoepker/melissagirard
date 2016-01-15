@@ -59,7 +59,6 @@ body {
   background-position: center;
   background-size: contain;
   height: 280px;
-
 }
 
 .frontpage {
@@ -75,7 +74,7 @@ body {
   text-decoration: none;
 }
 
-/* ----------- Mobile menu ----------- */
+/* ----------- Nav menu ----------- */
 
 .nav {
   display: table;
@@ -868,14 +867,8 @@ p {
       font-size: 30px;
       margin: 30px 0 -30px 0;
     }
-    .research h1 {
-      padding-top: 50px;
-    }
     .research h3 {
       font-size: 36px;
-    }
-    .teaching h1 {
-      padding-top: 50px;
     }
     h4 {
       font-size: 28px;
