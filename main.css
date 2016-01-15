@@ -95,6 +95,7 @@ body {
   display: block;
   padding: 10px;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav li a:hover {
