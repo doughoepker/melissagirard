@@ -11,13 +11,12 @@
 
 a:link, a:visited {
   font-family: 'Lato';
-  color: black;
+  color: #006b5b;
   text-decoration: none;
-  border-bottom: 2px solid #006b5b;
 }
 a:hover {
   text-decoration: none;
-  border-bottom: 4px solid #006b5b;
+  color: #01ab92;
 }
 
 #image-link {
@@ -76,6 +75,32 @@ body {
   text-decoration: none;
 }
 
+/* ----------- Mobile menu ----------- */
+
+.nav {
+  display: table;
+  margin: 0 auto;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  border: 3px solid #ffcc33;
+  color: #006b5b;
+}
 
 /* -------------- SVGs -------------- */
 
@@ -208,7 +233,6 @@ p {
   text-decoration: underline;
   margin: 30px 0 -10px 0;
 }
-
 
 /* -------------- Media Qs ------------- */
 
