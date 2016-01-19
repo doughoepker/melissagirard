@@ -409,6 +409,9 @@ p {
       font-size: 1.1em;
       margin: -15px 10px;
     }
+    .footerlogos {
+      margin-bottom: 30px;
+    }
     .footerlogos svg {
       width: 30px;
       height: 30px;
@@ -468,6 +471,9 @@ p {
     .nav li a {
       font-size: 1.1em;
       margin: -15px 10px;
+    }
+    .footerlogos {
+      margin-bottom: 30px;
     }
     .footerlogos svg {
       width: 30px;
@@ -529,6 +535,9 @@ p {
     .nav li a {
       font-size: 1.2em;
       margin: -15px 10px;
+    }
+    .footerlogos {
+      margin-bottom: 30px;
     }
     .footerlogos svg {
       width: 30px;
@@ -618,6 +627,9 @@ p {
     .nav li a {
       font-size: 1.2em;
       margin: -15px 10px;
+    }
+    .footerlogos {
+      margin-bottom: 30px;
     }
     .footerlogos svg {
       width: 30px;
