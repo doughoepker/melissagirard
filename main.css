@@ -78,7 +78,7 @@ body {
 
 .nav {
   display: table;
-  margin: 0 auto 20px;
+  margin: 0 auto 18px;
 }
 .nav ul {
   list-style-type: none;
@@ -87,7 +87,7 @@ body {
 }
 
 .nav li {
-  float: left;
+
 }
 
 .nav li a {
@@ -95,6 +95,7 @@ body {
   padding: 10px;
   text-decoration: none;
   font-weight: bold;
+  font-size: 30px;
 }
 
 .nav li a:hover {
@@ -153,7 +154,7 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin: 0 auto;
-  padding: 20px 0 25px 0;
+  padding: 20px 0 20px 0;
 }
 
 h2 {
@@ -169,7 +170,7 @@ h3 {
   font-weight: bold;
   font-family: 'Crimson Text';
   font-size: 20px;
-  margin: 30px 0 -15px 0;
+  margin: 10px 0 -15px 0;
 }
 
 h4 {
@@ -254,6 +255,14 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
     }
+    .nav li a {
+      font-size: 1.1em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
+    }
 }
 
 /* Landscape */
@@ -266,9 +275,13 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
+    .frontpage h2 {
+      font-size: 1.7em;
+      margin: 20px auto 15px auto;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     h4 {
       font-size: 26px;
@@ -280,6 +293,10 @@ p {
       text-align: left;
       margin-bottom: 10px;
       line-height: 1.2em;
+    }
+    .nav li a {
+      font-size: 1.1em;
+      margin: -15px 10px;
     }
     .teaching h4 {
       font-size: 26px;
@@ -297,6 +314,21 @@ p {
     .catlogo {
       height: 230px;
     }
+    .frontpage h2 {
+      font-size: 1.3em;
+      margin: 20px auto 15px auto;
+    }
+    .nav {
+      width: 20%;
+    }
+    .nav li a {
+      font-size: 1.3em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
+    }
 }
 
 /* Landscape */
@@ -311,12 +343,12 @@ p {
       margin-top: 20px;
     }
     .frontpage h2 {
-      font-size: 1.4em;
+      font-size: 1.7em;
       margin: 20px auto 15px auto;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto 20px;
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     p {
       font-size: 22px;
@@ -330,11 +362,9 @@ p {
       margin: 20px 0 10px 0;
       line-height: 1.3em;
     }
-    ul li {
-      font-size: 20px;
-      text-align: left;
-      margin-bottom: 10px;
-      line-height: 1.2em;
+    .nav li a {
+      font-size: 1.1em;
+      margin: -15px 10px;
     }
     .teaching h4 {
       font-size: 28px;
@@ -354,9 +384,13 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
+    .nav li a {
+      font-size: 1.2em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
 }
 
@@ -371,9 +405,13 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 280px;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
+    .nav li a {
+      font-size: 1.1em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     h4 {
       font-size: 26px;
@@ -405,6 +443,14 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
     }
+    .nav li a {
+      font-size: 1.3em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
+    }
 }
 
 
@@ -419,9 +465,13 @@ p {
       background-image: url(MG-Mobile-Logo.png);
       height: 220px;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto;
+    .nav li a {
+      font-size: 1.1em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     h4 {
       font-size: 26px;
@@ -451,6 +501,14 @@ p {
     .catlogo {
       height: 230px;
     }
+    .nav li a {
+      font-size: 1.2em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
+    }
 }
 
 /* Landscape */
@@ -468,9 +526,13 @@ p {
       font-size: 1.4em;
       margin: 20px auto 15px auto;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto 20px;
+    .nav li a {
+      font-size: 1.2em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     p {
       font-size: 22px;
@@ -513,6 +575,14 @@ p {
       font-size: 1.5em;
       margin: 20px auto 15px auto;
     }
+    .nav li a {
+      font-size: 1.2em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
+    }
     p {
       font-size: 20px;
     }
@@ -542,12 +612,16 @@ p {
       margin-top: 30px;
     }
     .frontpage h2 {
-      font-size: 1.5em;
-      margin: 20px auto 15px auto;
+      font-size: 1.6em;
+      margin: 20px auto 20px auto;
     }
-    .footerlogos {
-      display: table;
-      margin: 0 auto 30px;
+    .nav li a {
+      font-size: 1.2em;
+      margin: -15px 10px;
+    }
+    .footerlogos svg {
+      width: 30px;
+      height: 30px;
     }
     p {
       font-size: 22px;
@@ -629,6 +703,9 @@ p {
       margin-bottom: 10px;
       line-height: 1.2em;
     }
+    .nav li {
+      float: left;
+    }
     .teaching h3 {
       font-size: 30px
       margin: 30px 0 -12px 0;
@@ -692,6 +769,9 @@ p {
       text-align: left;
       margin-bottom: 10px;
       line-height: 1.2em;
+    }
+    .nav li {
+      float: left;
     }
     .teaching h3 {
       font-size: 30px
@@ -759,6 +839,9 @@ p {
       margin-bottom: 10px;
       line-height: 1.2em;
     }
+    .nav li {
+      float: left;
+    }
     .teaching h3 {
       font-size: 30px
       margin: 30px 0 -12px 0;
@@ -823,6 +906,9 @@ p {
       margin-bottom: 10px;
       line-height: 1.2em;
     }
+    .nav li {
+      float: left;
+    }
     .teaching h3 {
       font-size: 30px
       margin: 30px 0 -12px 0;
@@ -878,6 +964,9 @@ p {
     }
     ul li {
       font-size: 26px;
+    }
+    .nav li {
+      float: left;
     }
     .teaching h3 {
       font-size: 30px
